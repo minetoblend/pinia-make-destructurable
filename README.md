@@ -1,5 +1,5 @@
 # pinia-make-destructurable
-A modified version of [https://pinia.vuejs.org/](Pinia's) `storeToRefs` function that will also include the actions.
+A modified version of [Pinia's](https://pinia.vuejs.org/) `storeToRefs` function that will also include the actions.
 
 ## Usage
 ```ts

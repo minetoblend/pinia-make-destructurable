@@ -1,6 +1,10 @@
 {
   "name": "pinia-make-destructurable",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/minetoblend/pinia-make-destructurable.git",
+    "type": "git"
+  },
   "description": "",
   "type": "module",
   "main": "dist/lib.cjs",
@@ -9,7 +13,7 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "author": "",
+  "author": "Marvin Schürz",
   "license": "ISC",
   "exports": {
     ".": {
@@ -32,6 +36,9 @@
     "typescript": "^5.0.2",
     "vue": "^3.2.47"
   },
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "pinia": "2.x",
     "vue": "3.x"
